@@ -29,6 +29,7 @@ Una vez tenéis puesto el contenido a la carpeta mod,s los tenéis que activar. 
 Cuando los tengáis instalados tenéis que generar las key,s para poder interactuar entre los servicios y los plugins.
 
 os dirigís:
+
     api administration
 
 Aquí os pedirá poner un nombre, ponéis kpax, os dará dos valores public key y private key. La que usareis es la public key, la private la utiliza el propio elgg.
