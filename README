@@ -1,8 +1,8 @@
-# MODS ELGG PARA KPAX
+-MODS ELGG PARA KPAX
 
 Estos modulos son necessarios para el correcto funcionamiento de kpax en la plataforma elgg
 
-# Requisitos
+-Requisitos
 
 Para un correcto funcionamiento se necesita:
 
@@ -12,7 +12,7 @@ php5
 
 Y tener instalado la plataforma elgg (http://elgg.org/download.php)
 
-# Instalación
+-Instalación
 
 Nos descargamos los modulos:
 
@@ -22,7 +22,7 @@ Como podeis ver tiene la estructura de ficheros /elgg/etc... eso quiere decir qu
 
   copiar todo el contenido a la carpeta mod de elgg
 
-# CONFIGURACION
+-CONFIGURACION
 
 Una vez teneis puesto el contenido a la carpeta mod,s los teneis que activar. Para activar teneis que ir a administración de la plataforma elgg y activar los diferentes plugins.
 
@@ -39,10 +39,10 @@ Ahora teneis que ir al archivo :
 Una vez teneis esto configurado ya podeis utilizar los plugins elgg utilizando vuestro servicio kpax
 
 
-# INCIDENCIAS
+-INCIDENCIAS
 
 Si tenéis alguna incidencia no dudéis enviar un correo a vuestro responsable
 
-# LICENSE
+-LICENSE
 
 Universitat Oberta de catalunya
