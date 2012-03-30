@@ -33,10 +33,12 @@ os diriguis:
 
 Aqui os pedira poner un nombre, poneis kpax, os dara dos valores public key y private key. La que usareis es la public key, la private la utiliza el propio elgg.
 
-Ahora teneis que ir al archivo : 
+Ahora teneis que ir al archivo: 
+
     /www/elgg/mods/kpax/lib/kpaxSrv.php y modificar la linia donde aparece $apikey = ... y modificar por el valor que has obtenido.
     
-Lo mismo en la parte de servicios
+Lo mismo en la parte de servicios:
+
     /src/main/java/uoc/edu/svrKpax/util/ConstantsKPAX.java y modificar la linia donde aparece public final static String ELGG_API_KEY =".... y modificas por el valor obtenido.
 
 Una vez teneis esto configurado ya podeis utilizar los plugins elgg utilizando vuestro servicio kpax
