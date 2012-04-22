@@ -53,7 +53,7 @@ class kpaxSrv {
         $this->service("game/like/" . $productId . "/add", "POST", $body);
     }
 
-    public function delLifeGame($campusSession, $containerId, $productId) {
+    public function delLikeGame($campusSession, $containerId, $productId) {
         $body = 'secretSession=' . $campusSession . '&containerId=' . $containerId;
         $this->service("game/like/" . $productId . "/del", "POST", $body);
     }
