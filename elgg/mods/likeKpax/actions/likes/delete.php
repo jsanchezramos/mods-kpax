@@ -7,7 +7,7 @@ $objKpax = new kpaxSrv(elgg_get_logged_in_user_entity()->username);
 $user = elgg_get_logged_in_user_entity();
 $kpaxPost = get_entity(get_input('guid'));
 
-if($kpaxPost->getSubtype() == "kpax")$objKpax->delLifeGame($_SESSION["campusSession"],$user->guid,(int) get_input('guid'));
+if($kpaxPost->getSubtype() == "kpax")$objKpax->delLikeGame($_SESSION["campusSession"],$user->guid,(int) get_input('guid'));
 
 $likes = elgg_get_annotations(array(
 	'guid' => (int) get_input('guid'),
