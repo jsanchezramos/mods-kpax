@@ -51,7 +51,7 @@ class kpaxOauth {
         
         $ch = curl_init($req->to_url());
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($c, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_POST, true);
         $res = curl_exec($ch);
 
         echo $res;
