@@ -23,7 +23,7 @@
 	$info .= "</p></div>";
 	$info .= "<div><p><b>$public_label:</b> {$entity->public}<br />";
 
-	if (isadminloggedin()) {
+	if (elgg_is_admin_logged_in()) {
 		// Only show secret portion to admins
 
 		// Fetch key
@@ -33,5 +33,5 @@
 	}
 	$info .= "</p></div>";
 
-	echo elgg_view_listing($icon, $info);
+	echo elgg_view_image_block($icon, $info);
 ?>
