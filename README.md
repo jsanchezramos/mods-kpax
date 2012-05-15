@@ -1,26 +1,25 @@
 # MODS ELGG PARA KPAX
 
-Estos módulos son necesarios para el funcionamiento de kpax en la plataforma elgg
+Estos módulos son necesarios para el funcionamiento de kpax en la plataforma elgg:
+- loginrequired, oculta todas las páginas de Elgg, excepto las de inicio, registro y olvido del password, al usuario no autenticado.
+- kpax, contiene los webservices necesarios para interactuar desde fuera con el servidor elgg interno
+- apiadmin, genera y gestiona los certificados para la autenticación
+- likeKpax, gestiona las anotaciones 'me gusta' en los objetos kPax
 
 # Requisitos
-
 Para un correcto funcionamiento se necesita:
-
 mysql 5
-
 php5
 
 Y tener instalada la plataforma elgg (http://elgg.org/download.php)
 
 # Instalación
-
 Es preciso descargar los módulos:
 
     git checkout o se descargan por otras vias. 
     
-Tienen la estructura de ficheros /elgg/etc... es decir que deben ser copiados en la carpeta mod de la plataforma elgg
-
-    copiar todo el contenido a la carpeta mod de elgg
+Tienen la estructura de ficheros /elgg/etc... es decir que deben ser copiados en la carpeta mod de la plataforma elgg, 
+copiar todo el contenido a la carpeta mod de elgg
 
 # CONFIGURACION
 
@@ -33,7 +32,6 @@ Acceder a:
     api administration
 
 El sistema pide un nombre, se debe entrar kpax, proporcionará dos valores: public key y private key. La que hay que usar es la public key, la private la utiliza el propio elgg.
-
 A continuación hay que editar el archivo: 
 
     /www/elgg/mods/kpax/lib/kpaxSrv.php y modificar la linea donde aparece $apikey = ... cambiar por el valor obtenido de public key.
